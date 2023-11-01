@@ -6,17 +6,17 @@ class widgetTag extends Component{
 		return(
 			<>
 				<div className="widget widget_tag_cloud">
-					<h4 className="widget-title">Tags</h4>
+					<h4 className="widget-title">Xidmətlərimiz</h4>
 					<div className="tagcloud"> 
-						<Link to="#">Improvement</Link> 
-						<Link to="#">Health</Link> 
-						<Link to="#">Life</Link> 
-						<Link to="#">Covid</Link> 
-						<Link to="#">Healthy</Link> 
-						<Link to="#">Growth</Link>
-						<Link to="#">Education</Link> 
-						<Link to="#">Manage</Link> 
-						<Link to="#">General</Link>
+						<Link to="/laboratory">Laboratoriya</Link> 
+						<Link to="/usm">Radiologiya</Link> 
+						<Link to="/dermatology">Dermatologiya</Link> 
+						<Link to="/physiotherapy">Fizioterapiya</Link> 
+						<Link to="/gynecology">Ginekologiya</Link> 
+						<Link to="/dietology">Dietologiya</Link>
+						<Link to="/therapy">Terapevt</Link> 
+						<Link to="/psychologist">Psixologiya</Link> 
+						<Link to="/acupunctura">Akupunktura</Link>
 					</div>
 				</div>
 				

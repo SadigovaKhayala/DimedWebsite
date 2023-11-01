@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom'
-
+import content from '../markup/db'
 // Elements
 import BackToTop from './elements/back-top'
 import PageScrollTop from './elements/page-scroll-top'
@@ -32,15 +32,20 @@ import Dermatology from './pages/dermotology'
 import Physiotherapy from './pages/physiotherapy'
 import Dietology from './pages/dietology'
 import Gynecology from './pages/gynecology'
-import Cosmetology from './pages/cosmetology'
+import Therapy from './pages/therapy'
+import Physiology from './pages/physiology'
+import Acupunctura from './pages/acupunctura'
 
 class Markup extends Component {
+  
   render() {
+ 
     return (
+      
       <>
         {/* basename={'/react-new/'} */}
 
-        <BrowserRouter basename={'/dimed'}>
+        <BrowserRouter basename={'/'}>
           <Routes>
             <Route element={<ThemeLayout />}>
               <Route path="/" element={<Index />} />
@@ -54,13 +59,15 @@ class Markup extends Component {
               <Route path="/physiotherapy" element={<Physiotherapy />} />
               <Route path="/dietology" element={<Dietology />} />
               <Route path="/gynecology" element={<Gynecology />} />
-              <Route path="/cosmetology" element={<Cosmetology />} />
-              <Route path="/service-detail" element={<ServiceDetail />} />
+              <Route path="/therapy" element={<Therapy />} />
+              {/* <Route path="/service-detail" element={<ServiceDetail />} /> */}
               <Route path="/faq" element={<Faq />} />
               <Route path="/contact-us" element={<ContactUs />} />
-              <Route path="/booking" element={<Booking />} />
-              <Route path="/blog-grid" element={<BlogGrid />} />
-              <Route path="/blog-details" element={<BlogDetails />} />
+              {/* <Route path="/booking" element={<Booking />} /> */}
+              {/* <Route path="/blog-grid" element={<BlogGrid />} /> */}
+              <Route path="/blog-details/:id" element={<BlogDetails content={content} />} />
+              <Route path="/psychology" element={<Physiology />} />
+              <Route path="/acupunctura" element={<Acupunctura />} />
               <Route
                 path="/services-categories"
                 element={<ServicesCategories />}

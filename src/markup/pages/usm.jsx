@@ -173,40 +173,18 @@ class ServiceDetail extends Component {
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                      Ultrasəs müayinə(USM) səs dalğaları vasitəsilə daxili orqanlara baxmaq və müayinə etmək üsuludur.Praktiki cəhətdən zərərsizdir.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
-                      <Accordion.Item eventKey="1">
-                        <Accordion.Header>
-                          Hamiləlik zamanı hansı intervalla Usm müayinə
-                          edilməlidir?
-                        </Accordion.Header>
-                        <Accordion.Body>
-                          <p className="mb-0">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
-                          </p>
-                        </Accordion.Body>
-                      </Accordion.Item>
+      
                       <Accordion.Item eventKey="2">
                         <Accordion.Header>
                           Usm ilə hansı orqanların müayinəsi mümkündür?
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                    USM vasitəsilə qarın boşluğu(qaraciyər, öd kisəsi, mədəaltı vəz, dalaq), böyrəklər, sidik kisəsi, prostat vəz, ginekoloji, qalxanvari vəz ,süd vəziləri, yumşaq toxuma,limfa düyünləri,skrotal  və s. müayinələr aparılır.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -217,11 +195,8 @@ class ServiceDetail extends Component {
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                    Doppler müayinəsi qan dövranını yoxlamaq məqsədi ilə aparılır.
+Hamiləliyin Doppler müayinəsi 22-24 həftədən sonra məsləhət görülür
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>
@@ -232,11 +207,7 @@ class ServiceDetail extends Component {
                         </Accordion.Header>
                         <Accordion.Body>
                           <p className="mb-0">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
+                       Cinsiyyət 11-14 həftə arası formalaşır.1% hallarda  uşağın cinsiyyəti 17 həftədə formalaşır.
                           </p>
                         </Accordion.Body>
                       </Accordion.Item>

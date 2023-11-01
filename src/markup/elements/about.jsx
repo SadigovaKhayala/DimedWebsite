@@ -11,12 +11,16 @@ import ptImg4 from '../../images/shap/square-dots-orange.png'
 import ptImg5 from '../../images/shap/square-blue.png'
 import usm from '../../images/ultrasound.png'
 import physiotherapy from '../../images/physiotherapy.png'
-import cosmetology from '../../images/cosmetology.png'
-import dermotology from '../../images/dermatology.png'
+import therapy from '../../images/therapist.png'
+import dermotology from '../../images/dermo-cosmetology.png'
 import diet from '../../images/diet.png'
 import ginecology from '../../images/maternity.png'
 import endocrinology from '../../images/thyroid.png'
 import lab from '../../images/lab.png'
+import akupunktura from '../../images/acupuncture.png'
+import psixoloq from '../../images/psychologist.png'
+
+
 
 class aboutSection extends Component {
   render() {
@@ -119,17 +123,17 @@ class aboutSection extends Component {
                     </div>
                   </Link>
                   <Link
-                    to="/cosmetology"
+                    to="/therapy"
                     className=" ourServicces col-lg-6 col-sm-6 mb-30 mb-sm-20"
                   >
                     <div className="feature-container feature-bx1 feature5">
                       <div className="icon-md">
                         <span className="icon-cell">
-                          <img src={cosmetology} alt="" />
+                          <img src={therapy} alt="" />
                         </span>
                       </div>
                       <div className="icon-content">
-                        <h4 className="ttr-title">Kosmetologiya</h4>
+                        <h4 className="ttr-title">Terapevt</h4>
                       </div>
                     </div>
                   </Link>
@@ -179,6 +183,37 @@ class aboutSection extends Component {
                       </div>
                     </div>
                   </Link>
+                  <Link
+                    to="/psychology"
+                    className=" ourServicces col-lg-6 col-sm-6 mb-30 mb-sm-20"
+                  >
+                    <div className="feature-container feature-bx1 feature4">
+                      <div className="icon-md">
+                        <span className="icon-cell">
+                          <img src={psixoloq} alt="" />
+                        </span>
+                      </div>
+                      <div className="icon-content">
+                        <h4 className="ttr-title">Psixoloq</h4>
+                      </div>
+                    </div>
+                  </Link>
+                  <Link
+                    to="acupunctura"
+                    className=" ourServicces col-lg-6 col-sm-6 mb-30 mb-sm-20"
+                  >
+                    <div className="feature-container feature-bx1 feature6">
+                      <div className="icon-md">
+                        <span className="icon-cell">
+                          <img src={akupunktura} alt="" />
+                        </span>
+                      </div>
+                      <div className="icon-content">
+                        <h4 className="ttr-title">Akupunktura</h4>
+                      </div>
+                    </div>
+                  </Link>
+                  
                 </div>
               </div>
             </div>

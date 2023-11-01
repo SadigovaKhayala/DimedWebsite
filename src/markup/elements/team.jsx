@@ -82,7 +82,7 @@ const teamMembers = [
   {
     name: 'Dr. Günel Rəhimova   ',
     specialization: 'Endokrinoloq',
-    image: nazax,
+    image: pp,
     socialMedia: [
       { platform: 'Twitter', link: 'https://twitter.com/' },
       { platform: 'LinkedIn', link: 'https://www.linkedin.com/' },
@@ -125,7 +125,7 @@ const teamMembers = [
   ,
   {
     name: 'Dr. Kamilə  Novruzova ',
-    specialization: 'Kosmetoloq',
+    specialization: <br />,
     image: pp,
     socialMedia: [
       { platform: 'Twitter', link: 'https://twitter.com/' },
@@ -134,7 +134,7 @@ const teamMembers = [
     ],
   },
   {
-    name: 'Musayeva Səbinə ',
+    name: 'Əkbərova Səbinə ',
     specialization: 'Tibb-bacısı ',
     image: pp,
     socialMedia: [

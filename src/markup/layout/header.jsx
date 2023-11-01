@@ -10,14 +10,14 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isSearchFormOpen, setIsSearchBtn] = useState(false)
 
-  const quikSearchBtn = () => setIsSearchBtn(!isSearchFormOpen)
+  // const quikSearchBtn = () => setIsSearchBtn(!isSearchFormOpen)
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
-  const quikSearchClose = () => setIsSearchBtn(false)
+  // const quikSearchClose = () => setIsSearchBtn(false)
   const closeMenu = () => setIsMenuOpen(false)
   const [activeItem, setActiveItem] = useState(null)
   const [isMobileView, setIsMobileView] = useState(false)
-  const [isOpen, setIsOpen] = useState(true)
+  // const [isOpen, setIsOpen] = useState(true)
 
   const toggleSubmenu = (item) => {
     setActiveItem(item === activeItem ? null : item)
@@ -46,33 +46,33 @@ const Header = () => {
       linkName: '#',
     },
     {
-      id: 'pages',
-      name: 'Səhifələr',
-      linkName: '#',
-
-      subItems: [
-        {
-          id: 'aboutus',
-          displayName: 'Haqqımızda',
-          linkName: 'about-us',
-        },
-        {
-          id: 'team',
-          displayName: 'Həkimlərimiz',
-          linkName: 'team',
-        },
-        {
-          id: 'faq',
-          displayName: 'Tez-tez verilən suallar ',
-          linkName: 'faq',
-        },
-      ],
+      id: 'team',
+      name: 'Həkimlərimiz',
+      linkName: 'team',
     },
     {
       id: 'services',
       name: 'Xidmələrimiz',
       linkName: 'services',
     },
+    {
+      id: 'aboutus',
+      name: 'Haqqımızda',
+      linkName: 'about-us',
+    },
+
+    {
+      id: 'faq',
+      name: 'FAQ ',
+      linkName: 'faq',
+    },
+    {
+      id: 'contact-us',
+      name: 'Bizimlə Əlaqə ',
+      linkName: 'contact-us',
+    },
+  
+   
   ]
   return (
     <header className="header header-transparent rs-nav">
@@ -117,11 +117,11 @@ const Header = () => {
                     <i className="fas fa-phone-alt"></i> (+01) 999 888 777
                   </a>
                 </li> */}
-                <li className="btn-area">
+                {/* <li className="btn-area">
                   <Link to="/contact-us" className="btn btn-primary shadow">
                     ƏLAQƏ <i className="btn-icon-bx fas fa-chevron-right"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
 
@@ -132,14 +132,16 @@ const Header = () => {
               id="menuDropdown"
             >
               <div className="menu-logo">
-                <Link to="/">
+                <Link  to="/">
                   <img src={logo} alt="" />
                 </Link>
               </div>
 
               <>
                 <ul className="nav navbar-nav">
-                  {menuItems.map((item) => (
+                 {
+                  
+                  menuItems.map((item) => (
                     <li
                       key={item.id}
                       className={`${activeItem === item.id ? 'open' : ''}`}
@@ -172,10 +174,16 @@ const Header = () => {
                         )}
                     </li>
                   ))}
+                  
+
                 </ul>
               </>
 
               <ul className="social-media">
+              <li>
+                  <a      target="_blank" rel="noreferrer" className="btn btn-primary" href="https://www.google.com/maps/dir//Dimed+Medical+Center+map/@40.3745236,49.8351628,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x40307da524d70647:0xc7479fe3f4995eda!2m2!1d49.8381612!2d40.3756457?hl=az"
+          >      <i className="fas fa-map-marker-alt"></i></a>
+                </li>
                 <li>
                   <a
                     target="_blank"
@@ -186,6 +194,7 @@ const Header = () => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
+
                 <li>
                   <a
                     target="_blank"
@@ -250,3 +259,6 @@ const Header = () => {
 }
 
 export default Header
+
+
+

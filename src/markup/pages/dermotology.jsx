@@ -112,6 +112,17 @@ class ServiceDetail extends Component {
                     <div className="row align-items-center">
                       <div className="col-md-6 mb-30">
                         <ul className="list-check-squer mb-0">
+                        <li>
+                            Dərinin kosmetoloji maddələrlə təmizlənməsi, qidalandırılması,nəmləndirilməsi ;
+                          </li>
+                          <li>Müxtəlif massajlar ;</li>
+                          <li>
+                            Dərialtı İnyeksiyalar (mezoterapiya,botulinoterapiya və s.);
+                          </li>
+                          <li>
+                            Fizioterapiya (lazer terapiya,foto terapiya,elektrik
+                            cərəyanla stimulyasiya);
+                          </li>
                           <li>
                             <Link>
                               <span> Papillomalar</span>
@@ -254,6 +265,75 @@ class ServiceDetail extends Component {
                       defaultActiveKey="0"
                       className="accordion ttr-accordion1"
                     >
+
+<Accordion.Item eventKey="0">
+                        <Accordion.Header>
+                          Plazmoliftinq nədir və onunla hansı nəticələr əldə
+                          olunur?
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          <p className="mb-0">
+                            Plazmoliftinq - pasiyentin öz qanından alınan və
+                            trombositlərlə zənginləşdirilən plazmanın dəriyə
+                            yeridilməsidir. Prosedurdan sonra xırda qırışlar
+                            itir, dərinin rəngi və elastikliyi yaxşılaşır. Bu
+                            üsul yaşlanmanın qarşısını alan ən effektiv
+                            üsullardan sayılır.
+                          </p>
+                        </Accordion.Body>
+                      </Accordion.Item>
+                      <Accordion.Item eventKey="1">
+                        <Accordion.Header>
+                          Saç tökülməsinin səbəbləri və müalicə üsulları
+                          hansılardır?
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          <p className="mb-0">
+                            Saçlar müxtəlif səbəblərdən tökülə bilər. Onlar
+                            arasında stress, vitamin çatışmazlığı, hormonal
+                            dəyişikliklər, saç dibinin seboreyası və bəzi dərman
+                            preparatlarının qəbulu geniş yayılmışdır. Müalicə
+                            sxemi saç tökülməsinin səbəbi və ağırlıq dərəcəsi
+                            nəzərə alınmaqla tərtib olunur.
+                          </p>
+                        </Accordion.Body>
+                      </Accordion.Item>
+                      <Accordion.Item eventKey="2">
+                        <Accordion.Header>
+                          Aknenin simptomları nələrdir ?
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          <p className="mb-0">
+                            Akne zamanı üz, sinə və kürəkdə müxtəlif morfoloji
+                            elementlər yaranır. Sızanaqların kökündə iltihabi
+                            proses olur. Nəticədə yumşaq toxumalar əriyir və
+                            irinli ifrazat yaranır. Pustulalar açılır, irinli
+                            ifrazat bayıra çıxır və üzəri qartmaqla örtülür.
+                            Sızanaqlar epidermis qatında olduqda yerində piqment
+                            ləkəsi, derma qatında olduqda isə çapıq əmələ gəlir.
+                          </p>
+                        </Accordion.Body>
+                      </Accordion.Item>
+                      <Accordion.Item eventKey="3">
+                        <Accordion.Header>
+                          Mezoterapiya nədir ?
+                        </Accordion.Header>
+                        <Accordion.Body>
+                          <p className="mb-0">
+                            Mezoterapiya – dəri içinə və dərialtına müxtəlif
+                            preparatların və kokteyllərin yeridilməsinə
+                            əsaslanan müalicə üsuludur. Mezoterapiya dərinin
+                            cavanlaşdırılması və sellülitin müalicəsi
+                            istiqamətində ən effektiv üsullardandı. Bu müalicə
+                            metodunun əsasını hüceyrələrə birbaşa təsir
+                            mexanizmi təşkil edir. Buna preparatların və
+                            kokteyllərin birbaşa müvafiq nahiyəyə inyeksion
+                            üsulla yeritməklə nail olurlar. Bu zaman lazımi
+                            qidalı maddələr, mikroelementlər, vitaminlər və
+                            dərman preparatları dərhal istədiyimiz yerə çatır.
+                          </p>
+                        </Accordion.Body>
+                      </Accordion.Item>
                       <Accordion.Item eventKey="0">
                         <Accordion.Header>
                           Saç tökülməsinin səbəbləri və müalicə üsulları
@@ -437,7 +517,7 @@ class ServiceDetail extends Component {
 
                         <a
                           href={pdffile}
-                          download="dermotology.pdf"
+                          download="dimed.pdf"
                           className="download-link"
                         >
                           <img src={pdf} alt="" />

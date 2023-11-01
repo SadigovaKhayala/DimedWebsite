@@ -15,7 +15,9 @@ import circleDots from '../../images/shap/circle-dots.png'
 import plusBlue from '../../images/shap/plus-blue.png'
 
 class AboutUs extends Component {
-  render() {
+
+  render(count, setCount) {
+
     return (
       <>
         <div className="page-content bg-white">
@@ -73,7 +75,7 @@ class AboutUs extends Component {
 
           <TestimonialSection />
 
-          {/* <LatestNewsSection /> */}
+          <LatestNewsSection  />
         </div>
       </>
     )

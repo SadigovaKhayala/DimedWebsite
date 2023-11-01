@@ -81,17 +81,14 @@ class testimonialSection extends Component {
                   <div className="slider-item">
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
+
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
+                        Rauf dr-a sozsuz təşəkkürlərimi bildirirəm.Bətnimdəki övladımı  yalnış diaqnoz nəticəsində  itirəcəkdim. Rauf dr. düzgün diaqnozu nəticəsində artıq övladımı tam sağlam qucağıma almnışam.
                         </p>
                       </div>
                       <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
+                        <h5 className="name">Rahilə E.</h5>
+                        <p>pasient</p>
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
@@ -102,16 +99,13 @@ class testimonialSection extends Component {
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
+                Rauf dr. , Nərgiz x. nə yaxşı ki, sizin kimi savadlı həkimlərimiz var. 
+
                         </p>
                       </div>
                       <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
+                        <h5 className="name">Nergiz A. </h5>
+                        <p>Pasient</p>
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
@@ -122,16 +116,12 @@ class testimonialSection extends Component {
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
+                       Artıq çəkidən uzun müddətdir əziyət çəkirdim. Düzgün diaqnoz doğurdan da öz sözünü deyir. Biopendisoment sayəsində 
                         </p>
                       </div>
                       <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
+                        <h5 className="name">Aysel V.</h5>
+                        <p>Pasient</p>
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
@@ -142,42 +132,19 @@ class testimonialSection extends Component {
                     <div className="testimonial-bx">
                       <div className="testimonial-content">
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
+                        Nabatxanım dr. düzgün diaqnozu sayəsində nəhəyət ki, revmotizma ağrılarından qurtuldum. Sizə sonsuz təşəkkürümü  bildirirəm. 
                         </p>
                       </div>
                       <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
+                        <h5 className="name">Natiq Q.</h5>
+                        <p>Pasient</p>
                       </div>
                       <div className="quote-icon">
                         <i className="fas fa-quote-left"></i>
                       </div>
                     </div>
                   </div>
-                  <div className="slider-item">
-                    <div className="testimonial-bx">
-                      <div className="testimonial-content">
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Quis ipsum suspendisse ultrices
-                          gravida. Risus commodo viverra maecena ssuspendisse
-                          ultrices gravida.
-                        </p>
-                      </div>
-                      <div className="client-info">
-                        <h5 className="name">John Deo</h5>
-                        <p>patient</p>
-                      </div>
-                      <div className="quote-icon">
-                        <i className="fas fa-quote-left"></i>
-                      </div>
-                    </div>
-                  </div>
+         
                 </Slider>
               </div>
             </div>

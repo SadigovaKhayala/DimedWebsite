@@ -27,7 +27,7 @@ function Index() {
       <TestimonialSection />
       <ServicesSliderSection />
 
-      {/* <LatestNewsSection /> */}
+      <LatestNewsSection />
     </>
   )
 }

@@ -58,23 +58,7 @@ class ServicesSliderSection extends Component {
             </div>
             <div className="col-xl-8 mb-15">
               <Slider {...settings} className="service-slide slick-arrow-none">
-                <div className="slider-item">
-                  <div className="feature-container doctorSlide feature-bx2 feature1">
-                    <div className="feature-box-2xl mb-30 ">
-                      <img className="sliderDoctorImg" src={sevilx} alt="" />
-                    </div>
-                    <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
-                      <Link
-                        to="/service-detail"
-                        className="btn btn-primary light"
-                      >
-                        Ətraflı
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+         
 
                 <div className="slider-item">
                   <div className="feature-container doctorSlide feature-bx2 feature1">
@@ -82,10 +66,10 @@ class ServicesSliderSection extends Component {
                       <img className="sliderDoctorImg" src={sevdax} alt="" />
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
+                      <h3 className="ttr-title">Sevda  Hacıyeva </h3>
                       <p>USM-Radioloq</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı
@@ -102,7 +86,7 @@ class ServicesSliderSection extends Component {
                       <h3 className="ttr-title">Rauf Soltanov </h3>
                       <p>USM-Radioloq</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı
@@ -117,10 +101,10 @@ class ServicesSliderSection extends Component {
                       <img className="sliderDoctorImg" src={nabatx} alt="" />
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
+                      <h3 className="ttr-title">Nabatxanım  Xəlilova </h3>
+                      <p>Terapevt</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı
@@ -129,23 +113,7 @@ class ServicesSliderSection extends Component {
                   </div>
                 </div>
 
-                <div className="slider-item">
-                  <div className="feature-container doctorSlide feature-bx2 feature1">
-                    <div className="feature-box-2xl mb-30 ">
-                      <img className="sliderDoctorImg" src={samirex} alt="" />
-                    </div>
-                    <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
-                      <Link
-                        to="/service-detail"
-                        className="btn btn-primary light"
-                      >
-                        Ətraflı
-                      </Link>
-                    </div>
-                  </div>
-                </div>
+        
 
                 <div className="slider-item">
                   <div className="feature-container doctorSlide feature-bx2 feature1">
@@ -153,10 +121,10 @@ class ServicesSliderSection extends Component {
                       <img className="sliderDoctorImg" src={nazax} alt="" />
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
+                      <h3 className="ttr-title"> Nəzakət Mirzəliyeva </h3>
+                      <p>Ginekoloq</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı
@@ -170,10 +138,10 @@ class ServicesSliderSection extends Component {
                       <img className="sliderDoctorImg" src={nergizx} alt="" />
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
+                      <h4 className="ttr-title">Nərgiz Haşımzadə </h4>
+                      <p>Tibb üzrə fəlsəfə doktoru-Psixoloq</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı
@@ -184,13 +152,30 @@ class ServicesSliderSection extends Component {
                 <div className="slider-item">
                   <div className="feature-container doctorSlide feature-bx2 feature1">
                     <div className="feature-box-2xl mb-30 ">
-                      <img className="sliderDoctorImg" src={agadr} alt="" />
+                      <img className="sliderDoctorImg" src={sevilx} alt="" />
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Rauf Soltanov </h3>
-                      <p>USM-Radioloq</p>
+                      <h3 className="ttr-title">Sevil Ramazanova </h3>
+                      <p>Ginekoloq</p>
                       <Link
-                        to="/service-detail"
+                        to="/team"
+                        className="btn btn-primary light"
+                      >
+                        Ətraflı
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+                <div className="slider-item">
+                  <div className="feature-container doctorSlide feature-bx2 feature1">
+                    <div className="feature-box-2xl mb-30 ">
+                      <img className="sliderDoctorImg" src={sevilx} alt="" />
+                    </div>
+                    <div className="icon-content">
+                      <h3 className="ttr-title">Sevil Ramazanova </h3>
+                      <p>Ginekoloq</p>
+                      <Link
+                        to="/team"
                         className="btn btn-primary light"
                       >
                         Ətraflı

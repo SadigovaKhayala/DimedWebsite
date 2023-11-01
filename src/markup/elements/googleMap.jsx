@@ -24,14 +24,7 @@ function MyComponent() {
 
   const [map, setMap] = React.useState(null)
   //
-  const onClick = () => {
-    console.info('I have been clicked!')
-  }
 
-  const divStyle = {
-    // background: 'black',
-  }
-  //
 
   const onLoad = (map) => {
     const bounds = new window.google.maps.LatLngBounds()

@@ -71,7 +71,7 @@ class ContactUs extends Component {
             <div className="container">
               <div className="contact-wraper">
                 <div className="row">
-                  <div className="col-lg-6 mb-30 border-radiusClasss">
+                  <div className="col-lg-6 mb-30 border-radiusClasss col-sm-12 ">
                     {/* <form className="form-wraper contact-form ajax-form">
 											<div className="ajax-message"></div>
 											<div className="row">
@@ -102,7 +102,7 @@ class ContactUs extends Component {
 										</form> */}
                     <GoogleMap />
                   </div>
-                  <div className="col-lg-6 mb-30">
+                  <div className="col-lg-6 col-sm-12 mb-30">
                     <div
                       className="contact-info ovpr-dark"
                       style={{ backgroundImage: 'url(' + pic1 + ')' }}
@@ -113,13 +113,21 @@ class ContactUs extends Component {
                           <h6 className="title">
                             <i className="ti-map-alt"></i>Ünvan
                           </h6>
-                          <p>Dilarə Əliyeva küç. 175 </p>
+                          <a
+            target="_blank"
+            className="text-white"
+            href="https://www.google.com/maps/dir//Dimed+Medical+Center+map/@40.3745236,49.8351628,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x40307da524d70647:0xc7479fe3f4995eda!2m2!1d49.8381612!2d40.3756457?hl=az"
+          >
+           Dilarə Əliyeva küç. 175 
+          </a>
+                    
                         </div>
                         <div className="icon-box">
                           <h6 className="title">
                             <i className="ti-id-badge"></i> Əlaqə üçün
                           </h6>
                           <a
+                  style={{cursor:'pointer'}}
                             href="https://mail.google.com/mail/?view=cm&fs=1&to=dimedmedicalcentre@mail.ru"
                             target="_blank"
                             className="text-white"

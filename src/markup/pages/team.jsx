@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-
+import content from './../doctors-db'
 // Import Images
 import bnrImg1 from '../../images/banner/img1.jpg'
 import trangleOrange from '../../images/shap/trangle-orange.png'
@@ -10,79 +10,70 @@ import waveBlue from '../../images/shap/wave-blue.png'
 import circleDots from '../../images/shap/circle-dots.png'
 import plusBlue from '../../images/shap/circle-dots.png'
 
-import sevilx from '../../images/team/sevilx.png'
-import raufdr from '../../images/team/raufdr.png'
-import nabatx from '../../images/team/nabatx.png'
-import nazax from '../../images/team/nazax.png'
-import sevdax from '../../images/team/sevdax.png'
-import nergizx from '../../images/team/nergizx.png'
-import samirex from '../../images/team/samirex.png'
-import agadr from '../../images/team/agadr.png'
-import pp from '../../images/team/pp.png'
 
 // Team Content
-const content = [
-  // {
-  //   thumb: samirex,
-  //   title: 'Dr. Samirə Rzayeva ',
-  //   subtitle: 'Rəhbər',
-  // },
-  // {
-  //   thumb: agadr,
-  //   title: 'Dr. Rzayev Ağarza ',
-  //   subtitle: 'Təsisçi',
-  // },
-  {
-    thumb: nergizx,
-    title: 'Dr. Nərgiz Haşımzadə ',
-    subtitle: 'Tibb üzrə fəlsəfə doktoru - Psixoloq',
-  },
-  {
-    thumb: raufdr,
-    title: 'Dr. Rauf Soltanov                   ',
-    subtitle: 'Həkim Radioloq',
-  },
-  {
-    thumb: nabatx,
-    title: 'Dr. Nabatxanım Xəlilova',
-    subtitle: 'Terapevt',
-  },
-  {
-    thumb: nazax,
-    title: 'Dr. Nəzakət Mirzəliyeva ',
-    subtitle: 'Ginekoloq',
-  },
-  {
-    thumb: sevdax,
-    title: 'Dr. Sevda  Hacıyeva',
-    subtitle: 'Həkim Radioloq',
-  },
-  {
-    thumb: sevilx,
-    title: 'Dr. Sevil Ramazanova ',
-    subtitle: 'Ginekoloq',
-  },
-  {
-    thumb: pp,
-    title: 'Dr. Səbinə Hüseynova ',
-    subtitle: 'Ginekoloq',
-  },
-  {
-    thumb: pp,
-    title: 'Dr. Günel Rəhimova  ',
-    subtitle: 'Endokrinoloq',
-  },
-  {
-    thumb: pp,
-    title: 'Dr. Kamilə  Novruzova ',
-    subtitle: 'Kosmetoloq ',
-  },
-  {
-    thumb: pp,
-    title: 'Səbinə  ',
-    subtitle: 'Tibb-bacısı  ',
-  },
-]
+// const content = [
+//   // {
+//   //   thumb: samirex,
+//   //   title: 'Dr. Samirə Rzayeva ',
+//   //   subtitle: 'Rəhbər',
+//   // },
+//   // {
+//   //   thumb: agadr,
+//   //   title: 'Dr. Rzayev Ağarza ',
+//   //   subtitle: 'Təsisçi',
+//   // },
+//   {
+//     thumb: nergizx,
+//     title: 'Dr. Nərgiz Haşımzadə ',
+//     subtitle: 'Tibb üzrə fəlsəfə doktoru - Psixoloq',
+//   },
+//   {
+//     thumb: raufdr,
+//     title: 'Dr. Rauf Soltanov                   ',
+//     subtitle: 'Həkim Radioloq',
+//   },
+//   {
+//     thumb: nabatx,
+//     title: 'Dr. Nabatxanım Xəlilova',
+//     subtitle: 'Terapevt',
+//   },
+//   {
+//     thumb: nazax,
+//     title: 'Dr. Nəzakət Mirzəliyeva ',
+//     subtitle: 'Ginekoloq',
+//   },
+//   {
+//     thumb: sevdax,
+//     title: 'Dr. Sevda  Hacıyeva',
+//     subtitle: 'Həkim Radioloq',
+//   },
+//   {
+//     thumb: sevilx,
+//     title: 'Dr. Sevil Ramazanova ',
+//     subtitle: 'Ginekoloq',
+//   },
+//   {
+//     thumb: pp,
+//     title: 'Dr. Səbinə Hüseynova ',
+//     subtitle: 'Həkim-laborant',
+//   },
+//   {
+//     thumb: pp,
+//     title: 'Dr. Günel Rəhimova  ',
+//     subtitle: 'Endokrinoloq',
+//   },
+//   {
+//     thumb: pp,
+//     title: 'Dr. Kamilə  Novruzova ',
+//     subtitle: <br></br>
+//   },
+//   {
+//     thumb: pp,
+//     title: 'Səbinə Əkbərova ',
+//     subtitle: 'Tibb-bacısı  ',
+//   },
+// ]
 
 class Team extends Component {
   render() {
@@ -151,7 +142,7 @@ class Team extends Component {
                             {item.subtitle}
                           </span>
                         </div>
-                        <ul className="social-media">
+                        {/* <ul className="social-media">
                           <li>
                             <a
                               rel="noreferrer"
@@ -179,7 +170,7 @@ class Team extends Component {
                               <i className="fab fa-instagram"></i>
                             </a>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

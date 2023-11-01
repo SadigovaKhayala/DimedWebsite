@@ -293,7 +293,7 @@ class ServiceDetail extends Component {
 
                         <a
                           href={pdffile}
-                          download="test.pdf"
+                          download="dimed.pdf"
                           className="download-link"
                         >
                           <img src={pdf} alt="" />

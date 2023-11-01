@@ -1,0 +1,107 @@
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+      -ms-transform: translate($x, $y); 
+       -o-transform: translate($x, $y);
+          transform: translate($x, $y);
+}
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin animate($name, $duration, $iteration, $direction) {
+  -webkit-animation-duration: $duration;
+     -moz-animation-duration: $duration;
+       -o-animation-duration: $duration;
+          animation-duration: $duration;
+
+  -webkit-animation-iteration-count: $iteration;
+     -moz-animation-iteration-count: $iteration;
+       -o-animation-iteration-count: $iteration;
+          animation-iteration-count: $iteration;
+
+  -webkit-animation-name: $name;
+     -moz-animation-name: $name;
+       -o-animation-name: $name;
+          animation-name: $name;
+
+  -webkit-animation-direction: $direction;
+     -moz-animation-direction: $direction;
+       -o-animation-direction: $direction;
+          animation-direction: $direction;
+}
+
+@include keyframes(pulsate) {
+
+}
+@include keyframes(move) {
+   to {
+     stroke-dashoffset: -1200;
+  }
+}
+@include keyframes(fade) {
+  0% {
+    opacity: 5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@mixin pulsate {
+  @include animate(pulsate, 80s, infinite, normal);
+}
+
+.LoaderMain{
+  background-image: url('./../images/main-banner/bg1.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust to 'contain', '100% auto', or other values as needed */
+  background-position: center center; /* Adjust the positioning as needed */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  width: 100vw; /* Set the width as needed */
+  height: 100vh; /* Set the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+
+}
+.loader {
+ width: 30vw;
+ height: 100vh;
+ overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  top: 0;
+  z-index: 9999999;
+  @include pulsate;
+  svg {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    @include translate(0,-50%);
+    
+  }
+}
+.animation { 
+            fill: none; 
+            stroke: orangered; 
+            stroke-linecap: square; 
+            stroke-miterlimit: 10; 
+            stroke-width: 1.5px; 
+            opacity: 1; 
+            stroke-dasharray: 600; 
+            -webkit-animation: move 5s linear forwards infinite, fade 5s linear infinite; 
+            animation: move 5s linear forwards infinite, fade 5s linear infinite; 
+        }
+        

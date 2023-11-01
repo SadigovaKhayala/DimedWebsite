@@ -33,48 +33,31 @@ const MenusItems = (isMenuOpen, setIsMenuOpen) => {
       linkName: '#',
     },
     {
-      id: 'pages',
-      name: 'Səhifələr',
+      id: 'team',
+      name: 'Həkimlərimiz',
       linkName: '#',
-
-      subItems: [
-        {
-          id: 'aboutus',
-          displayName: 'Haqqımızda',
-          linkName: 'about-us',
-        },
-        {
-          id: 'team',
-          displayName: 'Həkimlərimiz',
-          linkName: 'team',
-        },
-        {
-          id: 'faq',
-          displayName: 'Tez-tez verilən suallar ',
-          linkName: 'faq',
-        },
-        // {
-        //   id: 'booking',
-        //   displayName: 'Booking',
-        //   linkName: 'booking',
-        // },
-        // {
-        //   id: 'error',
-        //   displayName: 'Error 404',
-        //   linkName: 'error-404',
-        // },
-        // {
-        //   id: 'formLogin',
-        //   displayName: 'Login / Register',
-        //   linkName: 'form-login',
-        // },
-      ],
     },
     {
       id: 'services',
       name: 'Xidmələrimiz',
       linkName: 'services',
     },
+    {
+      id: 'aboutus',
+      name: 'Haqqımızda',
+      linkName: 'about-us',
+    },
+
+    {
+      id: 'faq',
+      name: 'FAQ ',
+      linkName: 'faq',
+    },
+    {
+      id: 'contact-us',
+      name: 'Bizimlə Əlaqə ',
+    },
+   
 
     // {
     //   id: 'services',

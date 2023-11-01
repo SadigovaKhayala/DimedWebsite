@@ -18,7 +18,9 @@ import usm from '../../images/servicesIcons/usm.png'
 import ginecology from '../../images/servicesIcons/ginecology.png'
 import fizioterapiya from '../../images/servicesIcons/fizioterapiya.png'
 import diet from '../../images/servicesIcons/diet.png'
-import cosmetology from '../../images/servicesIcons/kosmetology.png'
+import therapy from '../../images/servicesIcons/doctor.png'
+import acupunkture from '../../images/servicesIcons/acupuncture.png'
+import psixoloq from '../../images/servicesIcons/advice.png'
 
 class Services extends Component {
   render() {
@@ -83,10 +85,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">Laboratoriya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                  
                       <Link to="/laboratory" className="btn btn-primary light">
                         Ətraflı
                       </Link>
@@ -102,10 +101,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">USM müayinəsi </h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                
                       <Link to="/usm" className="btn btn-primary light">
                         Ətraflı
                       </Link>
@@ -121,10 +117,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">Endokrinologiya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                
                       <Link
                         to="/endocrinology "
                         className="btn btn-primary light"
@@ -144,10 +137,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">Dermotologiya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+               
                       <Link to="/dermatology" className="btn btn-primary light">
                         Ətraflı
                       </Link>
@@ -163,11 +153,8 @@ class Services extends Component {
                       </span>
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Physiotherapy</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                      <h3 className="ttr-title">Fizioterapiya</h3>
+                   
                       <Link
                         to="/physiotherapy"
                         className="btn btn-primary light"
@@ -187,10 +174,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">Ginekologiya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                   
                       <Link to="/gynecology" className="btn btn-primary light">
                         Ətraflı
                       </Link>
@@ -207,10 +191,7 @@ class Services extends Component {
                     </div>
                     <div className="icon-content">
                       <h3 className="ttr-title">Dietologiya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
+                   
                       <Link to="/dietology" className="btn btn-primary light">
                         Ətraflı
                       </Link>
@@ -222,16 +203,47 @@ class Services extends Component {
                   <div className="feature-container feature-bx2 feature3">
                     <div className="feature-box-xl mb-20">
                       <span className="icon-cell iconServices">
-                        <img src={cosmetology} alt="" />
+                        <img src={therapy} alt="" />
                       </span>
                     </div>
                     <div className="icon-content">
-                      <h3 className="ttr-title">Kosmetologiya</h3>
-                      <p>
-                        Phasellus venenatis porta rhoncus. Integer et viverra
-                        felis.
-                      </p>
-                      <Link to="/cosmetology" className="btn btn-primary light">
+                      <h3 className="ttr-title">Terapevt</h3>
+                   
+                      <Link to="/therapy" className="btn btn-primary light">
+                        Ətraflı
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 mb-30">
+                  <div className="feature-container feature-bx2 feature3">
+                    <div className="feature-box-xl mb-20">
+                      <span className="icon-cell iconServices">
+                        <img src={psixoloq} alt="" />
+                      </span>
+                    </div>
+                    <div className="icon-content">
+                      <h3 className="ttr-title">Psixoloq</h3>
+                   
+                      <Link to="/psychology" className="btn btn-primary light">
+                        Ətraflı
+                      </Link>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-30">
+                  <div className="feature-container feature-bx2 feature3">
+                    <div className="feature-box-xl mb-20">
+                      <span className="icon-cell iconServices">
+                        <img src={acupunkture} alt="" />
+                      </span>
+                    </div>
+                    <div className="icon-content">
+                      <h3 className="ttr-title">Akupunktura</h3>
+                   
+                      <Link to="/akupunctura" className="btn btn-primary light">
                         Ətraflı
                       </Link>
                     </div>
@@ -244,8 +256,8 @@ class Services extends Component {
           <FeatureSection3 />
 
           <TeamSection />
-
-          <LatestNewsSection />
+{/* 
+          <LatestNewsSection /> */}
         </div>
       </>
     )

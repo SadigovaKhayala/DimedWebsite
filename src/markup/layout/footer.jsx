@@ -135,8 +135,8 @@ class aboutSection extends Component {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/cosmetology">
-                          <span>Kosmetologiya</span>
+                        <Link to="/therapy">
+                          <span>Terapevt</span>
                         </Link>
                       </li>
                     </ul>
