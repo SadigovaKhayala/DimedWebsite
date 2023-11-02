@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Import Images
-import logo from "../../images/logo.png";
+import logo from "../../images//icons/logo.png";
 
 class FormLogin extends Component{
 	

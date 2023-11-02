@@ -9,26 +9,7 @@ import plusBlue from '../../images/shap/plus-blue.png'
 import pdf from '../../images/icon/pdf.png'
 import pdffile from '../../pdfs/price.pdf'
 
-import teamMember1 from '../../images/team/member1.jpg'
-import teamMember2 from '../../images/team/member2.jpg'
 //
-const content = [
-  {
-    thumb: teamMember1,
-    title: 'Dr. Addition Smith',
-    subtitle: 'Dentist',
-  },
-  {
-    thumb: teamMember2,
-    title: 'Dr. Mahfuz Riad',
-    subtitle: 'Chiropractor',
-  },
-  {
-    thumb: teamMember2,
-    title: 'Dr. Mahfuz Riad',
-    subtitle: 'Chiropractor',
-  },
-]
 
 class ServiceDetail extends Component {
   render() {

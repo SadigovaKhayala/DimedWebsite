@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Sticky from 'react-stickynode'
 
 // Images
-import logo from '../../images/logo.png'
+import logo from '../../images//icons/logo.png'
 import closeIcon from '../../images/icon/close.png'
 
 const Header = () => {

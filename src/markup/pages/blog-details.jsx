@@ -3,11 +3,7 @@ import {Link} from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import db from "./../db"
 // Elements
-import AuthorProfile from "../elements/author-profile";
-import CommentList from "../elements/comment-list";
-import CommentRespond from "../elements/comment-respond";
 import WidgetTag from "../elements/widget-tag";
-import WidgetSearch from "../elements/widget-search";
 import WidgetGallery from "../elements/widget-gallery";
 import WidgetRecentPosts from "../elements/widget-recent-posts";
 
@@ -16,10 +12,7 @@ import bnrImg1 from "../../images/banner/img1.jpg";
 import waveBlue from "../../images/shap/wave-blue.png";
 import circleDots from "../../images/shap/circle-dots.png";
 import plusBlue from "../../images/shap/plus-blue.png";
-import blogDefaultPic1 from "../../images/blog/default/pic1.jpg";
-import testPic3 from "../../images/testimonials/pic3.jpg";
-import galleryPic2 from "../../images/gallery/pic2.jpg";
-import galleryPic5 from "../../images/gallery/pic5.jpg";
+
 
 
 

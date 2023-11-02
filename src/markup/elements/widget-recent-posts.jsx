@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import db from './../db'
 
 // Import Images
-import recentBlogImg1 from "../../images/blog/recent-blog/pic1.jpg";
-import recentBlogImg2 from "../../images/blog/recent-blog/pic2.jpg";
-import recentBlogImg3 from "../../images/blog/recent-blog/pic3.jpg";
+
 
 class WidgetRecentPosts extends Component{
 	render(){

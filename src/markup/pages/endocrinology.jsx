@@ -6,11 +6,8 @@ import bnrImg1 from '../../images/banner/img1.jpg'
 import waveBlue from '../../images/shap/wave-blue.png'
 import circleDots from '../../images/shap/circle-dots.png'
 import plusBlue from '../../images/shap/plus-blue.png'
-import servicesPic1 from '../../images/services/pic1.jpg'
 import pdf from '../../images/icon/pdf.png'
-import doc from '../../images/icon/doc.png'
 import pdffile from '../../pdfs/price.pdf'
-
 import pp from '../../images/team/pp.png'
 
 //

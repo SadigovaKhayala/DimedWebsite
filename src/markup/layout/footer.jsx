@@ -2,19 +2,14 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 // Images
-import Logo from '../../images/logo.png'
+import Logo from '../../images//icons/logo.png'
 import footerBg from '../../images/background/footer.jpg'
 import ptImg1 from '../../images/shap/wave-blue.png'
 import ptImg2 from '../../images/shap/circle-dots.png'
 import ptImg3 from '../../images/shap/plus-blue.png'
 import ptImg4 from '../../images/shap/wave-blue.png'
-import telephone from '../../images/icon/icon1.png'
 
-// Social Images
-import facebook from '../../images/social/facebook.png'
-import twitter from '../../images/social/twitter.png'
-import instagram from '../../images/social/instagram.png'
-import linkedin from '../../images/social/linkedin.png'
+
 
 class aboutSection extends Component {
   render() {

@@ -13,8 +13,7 @@ import nabatx from '../../images/team/nabatx.png'
 import nazax from '../../images/team/nazax.png'
 import sevdax from '../../images/team/sevdax.png'
 import nergizx from '../../images/team/nergizx.png'
-import samirex from '../../images/team/samirex.png'
-import agadr from '../../images/team/agadr.png'
+
 class ServicesSliderSection extends Component {
   render() {
     const settings = {
