@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import {animateScroll} from 'react-scroll';
 
 class BackToTop extends Component{
 	
 	scrollToTop = () => {
-        animateScroll.scrollToTop();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
 	}
 	componentDidMount = () => {
         window.addEventListener("scroll",()=>{

@@ -218,6 +218,8 @@
 // Menu Links
 .menu-links {
   padding: 0;
+  overflow: hidden;
+    display: block;
 
   &.show {
     @include respond('tab-port') {
